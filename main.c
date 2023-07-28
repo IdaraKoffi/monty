@@ -1,4 +1,6 @@
 #include "monty.h"
+#include <string.h>
+#include <stdio.h>
 
 global_t vglo;
 

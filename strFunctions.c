@@ -49,7 +49,7 @@ int _sch(char *s, char c)
  * @d: a delimiters
  * Return: first partition
  */
-char _strtoky(char *s, char *d)
+char *_strtoky(char *s, char *d)
 {
 	static char *ultimo;
 	int a = 0, k = 0;

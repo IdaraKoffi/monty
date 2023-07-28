@@ -1,4 +1,5 @@
 #include "monty.h"
+#include <stdio.h>
 
 /**
  * _queue - To set the format of the data to a queue (FIFO)

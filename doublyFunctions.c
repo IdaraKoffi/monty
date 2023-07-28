@@ -1,5 +1,5 @@
 #include "monty.h"
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
  *add_dnodeint_end - To add a note at the end of the doubly linked list

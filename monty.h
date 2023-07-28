@@ -87,7 +87,7 @@ typedef struct instruction_s
 
 	/* imported function */
 	int _sch(char *s, char c);
-	char _strtoky(char *s, char d);
+	char *_strtoky(char *s, char *d);
 	void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 	void *_calloc(unsigned int nmemb, unsigned int size);
 	int _strcmp(char *s1, char *s2);
